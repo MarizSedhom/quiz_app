@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="result">
+    <div id="result-container">
+        <div id="win" style="display: none;">
+            <div id="winImg">
+              <img src="./img/prize.png" alt="Winning Image">
+            </div>
+            <h2>Congratulations!!</h2>
+            
+        </div>
+        <div id="lose" style="display: none;">
+            <div id="loseImg">
+              <img src="./img/lose.gif" alt="losing Image">
+            </div>
+            <h2>Oops!! Hard Luck</h2>
+            
+        </div>
+        <h3>Your Score: <span id="score"></span></h3>
+            <a href="quizApp.html"><button id="reset">Restart Quiz</button></a>
+    </div>
+    <script src="scriptResult.js"></script>
+</body>
+</html>

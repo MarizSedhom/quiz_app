@@ -1,0 +1,129 @@
+
+#win{
+    color: aliceblue;
+    position: fixed;
+    left: 6%;
+    bottom: 20%;
+    text-align: center;
+}
+#winImg img{
+    width: 20%;    
+}
+#lose{
+    color: aliceblue;
+    position: fixed;
+    left: 40%;
+    bottom: 28%;
+    text-align: center; 
+}
+
+.intro {
+    background-image: url(./img/intro6.jpg);
+    background-size: cover;
+    
+    padding: 15% 10%;
+    width: 42%;
+
+}
+.intro h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+.intro p{
+    color: white;
+    margin-bottom: 8%;
+    line-height: 28px;
+}
+.intro a{
+    
+    width: 21%;
+    display: block;
+    padding: 1.5%;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: x-large;
+    border: solid 2px #5efef9;
+    color: #df92ff;
+}
+.intro a:hover{
+    color: #5efef9;
+    border: solid 3px #df92ff;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./img/background2.jpg);
+    background-size: cover;
+}
+#quiz-container{
+   
+    /*background-image: url(./img/q.png);*/
+    border: solid 3px #e13df2;
+    border-radius: 10px;
+    width: 35%; /* adjust the width to your desired size */
+    height: auto;
+    margin: 10rem 2rem; /* centers the div on the page */
+    padding: 20px;
+    color: aliceblue;
+ 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    background-color: black;
+    color: #5efef9;
+    padding: 10px 20px;
+    margin: 2rem 5rem;
+    border: solid 2px #5efef9;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+button:hover {
+    color: #e13df2;
+}
+
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"] + label{
+    border: solid 1px #656a7f;
+    border-radius: 10px;
+    padding: 0.2rem 1.5rem;
+    margin: 1rem;
+    width: 90%;
+}
+
+input[type="radio"]:checked + label{
+    border: solid 2px #5efef9;
+    color:#5efef9;
+}
+#question-container{
+    margin-bottom: 1rem ;
+
+    margin-bottom: 1rem;
+    border: solid 2px #e13df2;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+}
+#options-container{
+   /* display: grid;
+    justify-content: center;*/
+    text-align: center;
+  
+}
+#alertDiv {
+    color: #5efef9;
+    padding: 1rem;
+    border: solid 2px #5efef9;
+    border-radius: 10px;
+    width: 15%;
+    margin: 1rem;
+}
+   
