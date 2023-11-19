@@ -58,13 +58,10 @@ body {
     background-size: cover;
 }
 #quiz-container{
-   
-    /*background-image: url(./img/q.png);*/
     border: solid 3px #e13df2;
     border-radius: 10px;
-    width: 35%; /* adjust the width to your desired size */
     height: auto;
-    margin: 10rem 2rem; /* centers the div on the page */
+    margin-top: 9rem;
     padding: 20px;
     color: aliceblue;
  
